@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>So Fibonacci chia het cho 5 </title>
+</head>
+<body>
+<script>
+    var a,b,result;
+    a = 0;
+    b = 1;
+    result = b;
+    tong = -2;
+    for (var i = 1; i<=20; i++)
+    {
+
+        result = a +b;
+        a = b;
+        b = result;
+        tong+= result;
+    }
+	alert(tong);
+</script>
+</body>
+</html>

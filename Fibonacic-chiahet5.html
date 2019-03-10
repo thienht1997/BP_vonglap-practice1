@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>So Fibonacci chia het cho 5 </title>
+</head>
+<body>
+<script>
+    var a,b,result;
+    a = 0;
+    b = 1;
+    result = b;
+    num = parseInt(prompt('Nhap gia tri muon hien thi'));
+    for (var i = 1; i<=num; i++)
+    {
+
+        result = a +b;
+        a = b;
+        b =result;
+	if(result % 5 == 0){
+	alert (result);
+	}
+    }
+</script>
+</body>
+</html>
