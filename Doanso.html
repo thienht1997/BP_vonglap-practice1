@@ -17,6 +17,9 @@
     function check_guess() {
         counter++;
         var n = Number(document.getElementById('n').value);
+	if(counter == 4){
+		confirm("Ban da het so lan doan");
+	}
         var result = 'thanh cong sau ' + counter + ' lan doan';
         if (n < hidden) {
             result = n + ' so ban doan nho hon so cua chung toi';
